@@ -52,32 +52,40 @@ To make the AI prediction actually useful, we have to bring in **explainability*
 ## Our Plan of Improvement in that Direction
 
 Hence instead of only giving predictions, we decided to divide our goal into the following steps:
-1) Image quality quantification: 
-  a) image quality verification; 
-  b) imaging artifact detection; 
-  c) iatrogenic lesion detection (laser scars, etc.) (highly optional)
+1) Image quality quantification:     
+  a) image quality verification;      
+  b) imaging artifact detection;     
+  c) iatrogenic lesion detection (laser scars, etc.) (highly optional)     
 
-2) Location and segmentation of retinal structures: 
-  a) retinal vessels 
-    • vessel diameter; 
-    • artery and vein classification;   
-    • vessel occlusion detection.   
+2) Location and segmentation of retinal structures:     
+  a) retinal vessels  
+  
+    - vessel diameter;    
+    - artery and vein classification;      
+    - vessel occlusion detection.     
+    
   b) fovea   
   c) optic disc    
-    • cup and rim;   
-    • cupping.   
+  
+    - cup and rim;   
+    - cupping.   
 3) Segmentation of abnormalities:   
-  a) blood vessel related abnormalities   
-    • hemorrhages;   
-    • microaneurysms;   
-    • neovascularizations;  
-    • nerve fiber infarcts (cottonwool spots).
+  a) blood vessel related abnormalities 
+  
+    - hemorrhages;   
+    - microaneurysms;      
+    - neovascularizations;     
+    - nerve fiber infarcts (cottonwool spots).     
+    
   b) pigment epithelium related abnormalities (cannot be currently done as we are working on BW images from preprocessing)
-    • drusen; 
-    • hyper and hypopigmentation.
-  c) choroid related abnormalities 
-    • nevus and melanoma detection; 
-    • uveitis related choroidal lesions.
+  
+    - drusen;    
+    - hyper and hypopigmentation.    
+    
+  c) choroid related abnormalities     
+  
+    - nevus and melanoma detection;    
+    - uveitis related choroidal lesions.    
 
 Then a panel of experts who would help us would agree upon some sort of importance for each of these 
 

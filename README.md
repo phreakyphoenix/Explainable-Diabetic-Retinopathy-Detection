@@ -44,10 +44,10 @@ We created two technical reports, describing our work:
 ## What sets us apart
 Clearly many exisitng AI solutions already exist to detect Diabetic Retinopathy. However, we are planning to build an agent capable of not only giving an output label but being able to defend its output before an expert panel. This will require it to have a deep understanding of the pathology.
 
-##### Scenario:
+#### Scenario:
 An image is shown to a doctor and an AI agent.
-Both come up with their predictions, but what is the use of the AI prediction, other than at most a nudge to the dctors.
-To make the AI prediction actually useful, we have to bring in **explainability**
+Both come up with their predictions, but what is the use of the AI prediction, other than at most a nudge to the dctors?    
+To make the AI prediction actually useful, we have to bring in **explainability** and the **ability to argue**
 
 ## Our Plan of Improvement in that Direction
 
@@ -95,9 +95,9 @@ Thus the architecture would look like :
 2. A hypervisor layer which is not ML but a hard coded Expert System for now
 3. A Decision Tree giving the final prediction based on each feature's importance(from level 2) and detected intensity (from level 
     
-      > Thus if anyone challnges its prediction, it can point out the exact sequence of dteerministic steps it went through to make the prediction, making it an invaluable tool to physicians as it could also show featues the physician  could miss. 
+      > Thus if anyone challnges its prediction, it can point out the exact sequence of deterministic steps it went through to make the prediction, making it an invaluable tool to physicians as it could also show featues the physician might miss. 
        
-Later on the hypervisor's importance weights could be modified to make the system more robust once we have the necessary data.
+Later on the hypervisor's importance weights could be modified to make the system more robust, once we have the necessary data.
 
 Copyright © 2019-present Aditya Jyoti Paul, Sudharsan B
 

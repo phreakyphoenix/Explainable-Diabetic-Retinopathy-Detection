@@ -31,8 +31,8 @@ We created two technical reports, describing our work:
 
 ## Hurdles we faced 
 1. Our main hurdle was the dataset from Kaggle, which is of significantly low quality and wrongly lablled.     
-   a. We did drop the bad images manually, but
-   b. Some images are wrongly labelled, for eg some level 3 images are actually worse than a level 4 image, this confuses the algorithm enormously.
+   a. We did drop the bad images manually, but     
+   b. Some images are wrongly labelled, for eg some level 3 images are actually worse than a level 4 image, this confuses the algorithm enormously.       
    c. Also the dataset is heavily imbalanced with close to 86% of the 88702 images represtning level 0 or NO DR.
    
 2. We could not devise an effective plan of how to combine multiple datasets, For eg for 

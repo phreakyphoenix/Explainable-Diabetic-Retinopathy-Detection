@@ -57,15 +57,16 @@ Hence instead of only giving predictions, we decided to divide our goal into the
   b) imaging artifact detection;     
   c) iatrogenic lesion detection (laser scars, etc.) (highly optional)     
 
-2) Location and segmentation of retinal structures:     
-  a) retinal vessels  
-  
-    - vessel diameter;    
-    - artery and vein classification;      
-    - vessel occlusion detection.     
+2) Location and segmentation of retinal structures: 
+
+a) retinal vessles 
+
+   - vessel diameter;    
+   - artery and vein classification;      
+   - vessel occlusion detection.     
     
   b) fovea   
-  c) optic disc    
+  c) optic disc  
   
     - cup and rim;   
     - cupping.   

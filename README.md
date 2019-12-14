@@ -80,13 +80,13 @@ Hence instead of only giving predictions, we decided to divide our goal into the
     
   b) pigment epithelium related abnormalities (cannot be currently done as we are working on BW images from preprocessing)
   
-    - drusen;    
-    - hyper and hypopigmentation.    
+   - drusen;    
+   - hyper and hypopigmentation.    
     
   c) choroid related abnormalities     
   
-    - nevus and melanoma detection;    
-    - uveitis related choroidal lesions.    
+   - nevus and melanoma detection;    
+   - uveitis related choroidal lesions.    
 
 Then a panel of experts who would help us would agree upon some sort of importance for each of these 
 

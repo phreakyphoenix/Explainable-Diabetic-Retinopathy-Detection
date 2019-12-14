@@ -33,7 +33,7 @@ Selected online links:
 [Microsoft BLog 2018](https://blogs.technet.microsoft.com/machinelearning/2018/06/25/building-a-diabetic-retinopathy-prediction-application-using-azure-machine-learning/)     
 
 ## Our Work
-We tried a lot of things in the beginning, over 20 preprocessing techniques, and ultimately zeroed in on about 7 which we are currently using. We also tried many different architectures. A detailed report of our final architecture and findings are illustrated in two technical reports:       
+We tried a lot of things in the beginning, over 20 preprocessing techniques, and ultimately zeroed in on the ones we are currently using. We also tried many different architectures. A detailed report of our final architecture and findings are illustrated in two technical reports:       
 [Report 1](Reports/Report_1_Classification%20Stages%20of%20Diabetic%20Retinopathy%20through%20Deep%20CNN.pdf)        
 [Report 2 with references](Reports/Report%20_2_Research%20Paper.pdf)
 

@@ -16,13 +16,13 @@ There are 5 levels 0 to 4:
 3. Severe Nonproliferative Retinopathy. In this stage,Many more blood vessels are blocked, depriving several areas of the retina with their blood supply. These areas of the retina send signals to the body to grow new blood vessels for nourishment.
 4. **Proliferative Retinopathy**: At this advanced stage, the signals sent by the retina for nourishment trigger the growth of new blood vessels. These new blood vessels are abnormal and fragile. They grow along the retina and along the surface of the clear, vitreous gel that fills the inside of the eye. By themselves, these blood vessels do not cause symptoms or vision loss. However, they have thin, fragile walls. If they leak blood, severe vision loss and even blindness can result.
 
-# Goals
+## Goals
 1. To detect the various stages of diabetic retinopathy, especially in the early stages, ie. NPDR with high levels of accuracy. 
 
 
-# Past Research
+## Past Research
 We went through over 100 research papers to understand both the biological aspect of what causes the idseases and also how to make the AI aspect of it work.
 
-# Hurdles we faced 
+## Hurdles we faced 
 
-# Our Plan of Action
+## Our Plan of Action

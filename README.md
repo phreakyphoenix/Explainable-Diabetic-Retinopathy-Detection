@@ -24,13 +24,18 @@ There are 5 levels 0 to 4:
 We went through over 100 research papers to understand both the biological aspect of what causes the idseases and also how to make the AI aspect of it work. We will update the papers here soon.
 
 ## Our Work
-We created two technical reports, describing our work:
+We created two technical reports, describing our work:       
 [Report 1](Reports/Report_1_Classification%20Stages%20of%20Diabetic%20Retinopathy%20through%20Deep%20CNN.pdf)        
 [Report 2 with references](Reports/Report%20_2_Research%20Paper.pdf)
 
 
 ## Hurdles we faced 
-
+1. Our main hurdle was the dataset from Kaggle, which is of significantly low quality and wrongly lablled.     
+   a. We did drop the bad images manually, but
+   b. Some images are wrongly labelled, for eg some level 3 images are actually worse than a level 4 image, this confuses the algorithm enormously.
+   c. Also the dataset is heavily imbalanced with close to 86% of the 88702 images represtning level 0 or NO DR.
+   
+2. We could not devise an effective plan of how to combine multiple datasets, For eg for 
 ## Our Plan of Action
 
 ## What sets us apart

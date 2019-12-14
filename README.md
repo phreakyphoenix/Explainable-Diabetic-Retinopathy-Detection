@@ -1,4 +1,4 @@
-# Diabetic Retinopathy Detection
+# Explainable Diabetic Retinopathy Detection
 This project was born out of a research internship in association with UC Berkeley, SRM IST and IIT Kgp under the SPARC initiative. We own the sole rights to this work and wish to improve on it as a research endeavour.
 
 ## Abbreviations
@@ -41,10 +41,45 @@ We created two technical reports, describing our work:
    
 2. We could not devise an effective plan of how to combine multiple datasets, For eg DIARET DB has some 200 images are of really good quality, the reason we are particularly interested in doing this is described in the sections below.
 
-## Our Plan of Improvement
-Clearly many exisitng AI solutions already exist to detect Diabetic Retinopathy. 
-
 ## What sets us apart
+Clearly many exisitng AI solutions already exist to detect Diabetic Retinopathy. However, we are planning to build an agent capable of not only giving an output label but being able to defend its output before an expert panel. This will require it to have a deep understanding of the pathology.
+
+##### Scenario:
+An image is shown to a doctor and an AI agent.
+Both come up with their predictions, but what is the use of the AI prediction, other than at most a nudge to the dctors.
+To make the AI prediction actually useful, we have to bring in **explainability**
+
+## Our Plan of Improvement in that Direction
+
+Hence instead of only giving predictions, we decided to divide our goal into the following steps:
+1) Image quality quantification: 
+  a) image quality verification; 
+  b) imaging artifact detection; 
+  c) iatrogenic lesion detection (laser scars, etc.) (highly optional)
+
+2) Location and segmentation of retinal structures: 
+  a) retinal vessels 
+    • vessel diameter; 
+    • artery and vein classification;   
+    • vessel occlusion detection.   
+  b) fovea   
+  c) optic disc    
+    • cup and rim;   
+    • cupping.   
+3) Segmentation of abnormalities:   
+  a) blood vessel related abnormalities   
+    • hemorrhages;   
+    • microaneurysms;   
+    • neovascularizations;  
+    • nerve fiber infarcts (cottonwool spots).
+  b) pigment epithelium related abnormalities (cannot be currently done as we are working on BW images from preprocessing)
+    • drusen; 
+    • hyper and hypopigmentation.
+  c) choroid related abnormalities 
+    • nevus and melanoma detection; 
+    • uveitis related choroidal lesions.
+
+Then a panel of experts who would help us would agree upon some sort of importance for each of these 
 
 
 Copyright © 2019-present Aditya Jyoti Paul, Sudharsan B

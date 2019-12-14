@@ -21,7 +21,8 @@ There are 5 levels 0 to 4:
 
 
 ## Existing Research
-We went through over 100 research papers to understand both the biological aspect of what causes the diseases and also how to make the AI aspect of it work. We will update the papers here soon.
+We went through over 100 research papers to understand both the biological aspect of what causes the diseases and also how to make the AI aspect of it work. All the papers we studied and referred are hosted hereon [GDrive](https://drive.google.com/drive/folders/1w6qTQNr7eQvBS1_xEwjuw7_FdEOuVDZp?usp=sharing)       
+
 Selected online links:     
 [Google Blog 2016](https://ai.googleblog.com/2016/11/deep-learning-for-detection-of-diabetic.html)    
 [Google Blog 2018 with Paper](https://ai.googleblog.com/2018/12/improving-effectiveness-of-diabetic.html)     

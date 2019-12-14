@@ -93,7 +93,7 @@ Then a panel of experts would agree upon some sort of importance for each of the
 Thus the **architecture** would look like :
 1. An **AI for localization and segmentation** of the multitude of anomalies mentioned above (using CNNs)
 2. A **hypervisor** layer which is not ML but a hard coded Expert System for now
-3. A **Decision Tree** giving the final prediction based on each feature's importance(from level 2) and detected intensity (from level 
+3. A **Decision Tree** giving the final prediction based on each feature's importance(from level 2) and detected intensity (from level 1)
     
       > Thus if anyone challenges its prediction, it can point out the exact sequence of deterministic steps it went through to make the prediction, making it an invaluable tool to physicians as it could also show featues the physician might miss. 
        

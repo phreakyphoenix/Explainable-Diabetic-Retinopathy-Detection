@@ -9,6 +9,7 @@ This project was born out of a research internship in association with UC Berkel
 Diabetic retinopathy is a diabetes complication that affects eyes. It's caused by damage to the blood vessels of the light-sensitive tissue at the back of the eye (retina). At first, diabetic retinopathy may cause no symptoms or only mild vision problems, but can later lead to complete blindness.
 
 There are 5 levels 0 to 4:    
+
 0. **No DR**
 1. **Mild Nonproliferative Retinopathy**: At this stage, microaneurysms occur. They are small areas of balloon-like swelling in the retina's tiny blood vessels.
 2. **Moderate Nonproliferative Retinopathy**: This stage is when blood vessels that nourish the retina are blocked.

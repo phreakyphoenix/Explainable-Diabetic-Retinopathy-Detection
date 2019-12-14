@@ -35,5 +35,5 @@ We went through over 100 research papers to understand both the biological aspec
 
 
 ## Copyright Policy
-Aditya Jyoti Paul and Sudharsan B. own the sole copyright to this research and code. Content provided herewith is in agreement with this plicy.
+Copyright © 2019-present Aditya Jyoti Paul, Sudharsan B
 

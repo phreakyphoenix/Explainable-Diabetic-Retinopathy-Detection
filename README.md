@@ -22,6 +22,10 @@ There are 5 levels 0 to 4:
 
 ## Existing Research
 We went through over 100 research papers to understand both the biological aspect of what causes the idseases and also how to make the AI aspect of it work. We will update the papers here soon.
+Some good linksfor the same.
+[Google Blog 2016](https://ai.googleblog.com/2016/11/deep-learning-for-detection-of-diabetic.html)    
+[Google Blog 2018 with Paper](https://ai.googleblog.com/2018/12/improving-effectiveness-of-diabetic.html)     
+[Microsoft BLog 2018](https://blogs.technet.microsoft.com/machinelearning/2018/06/25/building-a-diabetic-retinopathy-prediction-application-using-azure-machine-learning/)     
 
 ## Our Work
 We created two technical reports, describing our work:       
@@ -35,8 +39,10 @@ We created two technical reports, describing our work:
    b. Some images are wrongly labelled, for eg some level 3 images are actually worse than a level 4 image, this confuses the algorithm enormously.       
    c. Also the dataset is heavily imbalanced with close to 86% of the 88702 images represtning level 0 or NO DR.
    
-2. We could not devise an effective plan of how to combine multiple datasets, For eg for 
-## Our Plan of Action
+2. We could not devise an effective plan of how to combine multiple datasets, For eg DIARET DB has some 200 images are of really good quality, the reason we are particularly interested in doing this is described in the sections below.
+
+## Our Plan of Improvement
+Clearly many exisitng AI solutions already exist to detect Diabetic Retinopathy. 
 
 ## What sets us apart
 

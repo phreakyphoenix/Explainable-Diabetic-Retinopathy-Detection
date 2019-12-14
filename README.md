@@ -26,7 +26,7 @@ We went through over 100 research papers to understand both the biological aspec
 ## Our Work
 We created two technical reports, describing our work:
 [Report 1](Reports/Report_1_Classification Stages of Diabetic Retinopathy through Deep CNN.pdf)        
-[Paper Format](Reports/Report_2_Research%20Paper)
+[Paper Format](Reports/Report%20_2_Research%20Paper.pdf)
 
 
 ## Hurdles we faced 

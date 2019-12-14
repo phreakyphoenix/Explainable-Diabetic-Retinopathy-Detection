@@ -1,5 +1,7 @@
 # Explainable Diabetic Retinopathy Detection
-This project was born out of a research internship in association with UC Berkeley, SRM IST and IIT Kgp under the SPARC initiative. We own the sole rights to this work and wish to improve on it as a research endeavour.
+This project was born out of a research internship in association with UC Berkeley, SRM IST and IIT Kgp under the SPARC initiative. We own the rights to this work and wish to improve on it as a research endeavour.     
+
+We have in this document, described the past and current goals, methodologies, hurdles, how we plan to mitigate some of them and the rationale behind this project.
 
 ## Abbreviations
  1. DR   : Diabetic Retinopathy
@@ -18,6 +20,8 @@ There are 5 levels 0 to 4:
 
 ## Goals
 1. To detect the various stages of diabetic retinopathy, especially in the early stages, ie. NPDR with high levels of accuracy. 
+2. To accurately warn patents in case of early stage or non-prioliferative DR.
+3. *Now we wish to make the AI explainable, capable of not only making the predictions but actually detecting each anomaly and wighing them in to announce its final label and being able to argue or prove why it is right.*
 
 
 ## Existing Research
@@ -29,7 +33,7 @@ Selected online links:
 [Microsoft BLog 2018](https://blogs.technet.microsoft.com/machinelearning/2018/06/25/building-a-diabetic-retinopathy-prediction-application-using-azure-machine-learning/)     
 
 ## Our Work
-We created two technical reports, describing our work:       
+We tried a lot of things in the beginning, over 20 preprocessing techniques, and ultimately zeroed in on about 7 which we are currently using. We also tried many different architectures. A detailed report of our final architecture and findings are illustrated in two technical reports:       
 [Report 1](Reports/Report_1_Classification%20Stages%20of%20Diabetic%20Retinopathy%20through%20Deep%20CNN.pdf)        
 [Report 2 with references](Reports/Report%20_2_Research%20Paper.pdf)
 
@@ -99,8 +103,5 @@ Thus the **architecture** would look like :
       > Thus if anyone challenges its prediction, it can point out the exact sequence of deterministic steps it went through to make the prediction, making it an invaluable tool to physicians as it could also show featues the physician might miss. 
        
 Later on the hypervisor's importance weights could be modified to make the system more robust, once we have the necessary data.
-
-
-
 
 Copyright © 2019-present Aditya Jyoti Paul, Sudharsan B

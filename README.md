@@ -1,5 +1,9 @@
-# Diabetic Retinopathy
-This project was born out of a research internship in association with UC Berkeley, SRM IST and IIT Kgp under the SPARC initiative.
+# Diabetic Retinopathy Detection
+This project was born out of a research internship in association with UC Berkeley, SRM IST and IIT Kgp under the SPARC initiative. We own the sole rights to this work. 
+
+
+
+We were successful in building an AI system but could not reach performance of market level solutions due to some reason which have been discussed in the hurdles section below. 
 
 ## Abbreviations
  1. DR   : Diabetic Retinopathy
@@ -26,3 +30,10 @@ We went through over 100 research papers to understand both the biological aspec
 ## Hurdles we faced 
 
 ## Our Plan of Action
+
+## What sets us apart
+
+
+## Copyright Policy
+Aditya Jyoti Paul and Sudharsan B. own the sole copyright to this research and code. Content provided herewith is in agreement with this plicy.
+

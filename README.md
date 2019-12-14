@@ -24,8 +24,8 @@ There are 5 levels 0 to 4:
 We went through over 100 research papers to understand both the biological aspect of what causes the idseases and also how to make the AI aspect of it work. We will update the papers here soon.
 
 ## Our Work
-We created two technical reports:
-[Report 1](Diabetic-Retinopathy/Reports/Report_1_Classification Stages of Diabetic Retinopathy through Deep CNN.pdf)
+We created two technical reports, describing our work:
+[Report 1](Reports/Report_1_Classification Stages of Diabetic Retinopathy through Deep CNN.pdf)        
 [Paper Format](Reports/)
 
 

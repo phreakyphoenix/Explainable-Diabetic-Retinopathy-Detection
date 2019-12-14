@@ -71,22 +71,22 @@ Hence instead of only giving predictions, we decided to divide our goal into the
       - cup and rim;   
       - cupping.   
 3) Segmentation of abnormalities:   
-  a) blood vessel related abnormalities 
+    a) blood vessel related abnormalities 
   
     - hemorrhages;   
     - microaneurysms;      
     - neovascularizations;     
     - nerve fiber infarcts (cottonwool spots).     
-    
-  b) pigment epithelium related abnormalities (cannot be currently done as we are working on BW images from preprocessing)
-  
-   - drusen;    
-   - hyper and hypopigmentation.    
-    
-  c) choroid related abnormalities     
-  
-   - nevus and melanoma detection;    
-   - uveitis related choroidal lesions.    
+
+   b) pigment epithelium related abnormalities (cannot be currently done as we are working on BW images from preprocessing)
+
+    - drusen;    
+    - hyper and hypopigmentation.    
+
+   c) choroid related abnormalities     
+
+    - nevus and melanoma detection;    
+    - uveitis related choroidal les ions.    
 
 Then a panel of experts who would help us would agree upon some sort of importance for each of these 
 

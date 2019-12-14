@@ -95,7 +95,7 @@ Thus the architecture would look like :
 2. A hypervisor layer which is not ML but a hard coded Expert System for now
 3. A Decision Tree giving the final prediction based on each feature's importance(from level 2) and detected intensity (from level 
     
-       - Thus if anyone challnges its prediction, it can point out the exact sequence of dteerministic steps it went through to make the prediction, making it an invaluable tool to physicians as it could also show featues the physician  could miss. 
+      > Thus if anyone challnges its prediction, it can point out the exact sequence of dteerministic steps it went through to make the prediction, making it an invaluable tool to physicians as it could also show featues the physician  could miss. 
        
 Later on the hypervisor's importance weights could be modified to make the system more robust once we have the necessary data.
 

@@ -1,9 +1,5 @@
 # Diabetic Retinopathy Detection
-This project was born out of a research internship in association with UC Berkeley, SRM IST and IIT Kgp under the SPARC initiative. We own the sole rights to this work. 
-
-
-
-We were successful in building an AI system but could not reach performance of market level solutions due to some reason which have been discussed in the hurdles section below. 
+This project was born out of a research internship in association with UC Berkeley, SRM IST and IIT Kgp under the SPARC initiative. We own the sole rights to this work and wish to improve on it as a research endeavour.
 
 ## Abbreviations
  1. DR   : Diabetic Retinopathy
@@ -24,8 +20,14 @@ There are 5 levels 0 to 4:
 1. To detect the various stages of diabetic retinopathy, especially in the early stages, ie. NPDR with high levels of accuracy. 
 
 
-## Past Research
-We went through over 100 research papers to understand both the biological aspect of what causes the idseases and also how to make the AI aspect of it work.
+## Existing Research
+We went through over 100 research papers to understand both the biological aspect of what causes the idseases and also how to make the AI aspect of it work. We will update the papers here soon.
+
+## Our Work
+We created two technical reports:
+[Report 1](Diabetic-Retinopathy/Reports/Report_1_Classification Stages of Diabetic Retinopathy through Deep CNN.pdf)
+[Paper Format](Reports/)
+
 
 ## Hurdles we faced 
 
@@ -34,6 +36,5 @@ We went through over 100 research papers to understand both the biological aspec
 ## What sets us apart
 
 
-## Copyright Policy
 Copyright © 2019-present Aditya Jyoti Paul, Sudharsan B
 

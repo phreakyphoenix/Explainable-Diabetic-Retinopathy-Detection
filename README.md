@@ -90,14 +90,16 @@ Hence instead of only giving predictions, we decided to divide our goal into the
 
 Then a panel of experts would agree upon some sort of importance for each of these factors, and the AI would, based on the importance of each of these factors by the intensity if the factors predict a label
 
-Thus the architecture would look like :
-1. An AI system for localization and segmentation of the multitude of anomalies mentioned above (using CNNs)
-2. A hypervisor layer which is not ML but a hard coded Expert System for now
-3. A Decision Tree giving the final prediction based on each feature's importance(from level 2) and detected intensity (from level 
+Thus the **architecture** would look like :
+1. An **AI for localization and segmentation** of the multitude of anomalies mentioned above (using CNNs)
+2. A **hypervisor** layer which is not ML but a hard coded Expert System for now
+3. A **Decision Tree** giving the final prediction based on each feature's importance(from level 2) and detected intensity (from level 
     
       > Thus if anyone challnges its prediction, it can point out the exact sequence of deterministic steps it went through to make the prediction, making it an invaluable tool to physicians as it could also show featues the physician might miss. 
        
 Later on the hypervisor's importance weights could be modified to make the system more robust, once we have the necessary data.
 
-Copyright © 2019-present Aditya Jyoti Paul, Sudharsan B
 
+
+
+Copyright © 2019-present Aditya Jyoti Paul, Sudharsan B

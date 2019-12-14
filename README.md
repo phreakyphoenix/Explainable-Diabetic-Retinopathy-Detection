@@ -59,17 +59,17 @@ Hence instead of only giving predictions, we decided to divide our goal into the
 
 2) Location and segmentation of retinal structures: 
 
-a) retinal vessles 
+     a) retinal vessles 
 
-   - vessel diameter;    
-   - artery and vein classification;      
-   - vessel occlusion detection.     
-    
-  b) fovea   
-  c) optic disc  
-  
-    - cup and rim;   
-    - cupping.   
+     - vessel diameter;    
+     - artery and vein classification;      
+     - vessel occlusion detection.     
+
+     b) fovea   
+     c) optic disc  
+
+      - cup and rim;   
+      - cupping.   
 3) Segmentation of abnormalities:   
   a) blood vessel related abnormalities 
   

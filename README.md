@@ -22,7 +22,7 @@ There are 5 levels 0 to 4:
 
 ## Existing Research
 We went through over 100 research papers to understand both the biological aspect of what causes the idseases and also how to make the AI aspect of it work. We will update the papers here soon.
-Some good linksfor the same.
+Selected online links:     
 [Google Blog 2016](https://ai.googleblog.com/2016/11/deep-learning-for-detection-of-diabetic.html)    
 [Google Blog 2018 with Paper](https://ai.googleblog.com/2018/12/improving-effectiveness-of-diabetic.html)     
 [Microsoft BLog 2018](https://blogs.technet.microsoft.com/machinelearning/2018/06/25/building-a-diabetic-retinopathy-prediction-application-using-azure-machine-learning/)     
